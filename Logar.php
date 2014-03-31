@@ -21,11 +21,16 @@ if ($ok == false) {
     echo "<br/><a href='index.html' > </a>";
 } else {
     foreach ($ok as $usuario) {
-    }        
+    }
+
+ 
+
+
+    $_SESSION['id'] = $usuario['id'];
     $_SESSION['usuario'] = $usuario['usuario'];
     $_SESSION['senha'] = $usuario['senha'];
      
-    //header("Location: menu.php");     
+    header("Location: menu.php");     
      
             $ok = LoginDAO::StatusLogin($objLogin);
                               

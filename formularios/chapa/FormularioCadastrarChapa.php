@@ -1,7 +1,7 @@
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <body>    
-    <form action="../../objetos/chapa/CadastrarChapa.php" method="POST" name=FormularioCadastrarChapa>
+    <form action="../../objetos/chapa/CadastrarChapa.php" method="POST" enctype="multipart/form-data" name=FormularioCadastrarChapa>
      <table align="center" >
 
          <tr>
